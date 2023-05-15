@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+ 
+  <header>
+    <div class="menu-principal">
+      
+  
+      <nav class="menu">
+        <li><div class="icono"><img src="img/icono2-web.png" alt=""> 
+          <p class="logo-azul">CK</p><p>Gutierrez</p>
+        </div>
+        <ul>
+          
+            <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+                <li class="menu__list__item"><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div><!--cierre menu-principal-->
+</header>
+     
+  <!-- Sección del Header/Title/Hero -->
+  <section class="title">
+    <div class="title__div"><!--Contenedor padre-->
+        <img class="imagen-perfil" src="img/ilustracion-desarrollador-web-sinfondo.png">
+        <div class="titulo-presentacion">
+            <h2 class="title__bio">Hola, mi nombre es Cristian Kamilo y construyo paginas web</h2>
+            <h3 class="title__subsection">Estoy en formacion en BIT en el Framework de React.</h3>
+        
+            <ul class="title__network">
+                <!-- Pon los enlaces de tus redes sociales favoritas -->
+               <li class="title__network__item"><a href="https://github.com/cristiankal">Github <img src="img/icono-flecha.png"> </a></li>
+               <li class="title__network__item"><a href="">Linkedin <img src="img/icono-flecha.png"></a></li>
+               <li class="title__network__item"><a href="">Instagram <img src="img/icono-flecha.png"></a></li>
+               <li class="title__network__item"><a href="">Currículo <img src="img/icono-flecha.png"></a></li>
+           </ul>
+        </div>
+    </div><!--cierre contenedor padre -->
+</section>
+
+   <!-- Sección de Skills -->
+   <section class="skills" id="skills">
+    <h3 class="skills__title">Skills</h3>
+        <div class="skills__line">
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"><img src="img/icono-html.png"></li>
+                    <br>
+                    <li class="skills__name"> HTML 5</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img src="img/icono-js.png" alt=""></li>
+                    <br> <!--le agrego el salto de linea para que queden en colomna-->
+                    <li class="skills__name">Javascript</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img src="img/icono-react.png" alt=""> </li>
+                    <br>
+                    <li class="skills__name">React</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img src="img/icono-css.png" alt=""> </li>
+                    <br>
+                    <li class="skills__name">CSS</li>
+                </ul>
+            </div>
+    </div><!--Cierre contenedor padre-->
+</section><!--Fin seccion skills-->
+
+
+
+        <!-- Sección de Contacto -->
+        <section class="formcontato" id="contacto">
+          <div  class="contenedor__contacto">
+              <div class="imagen-contacto">
+                  <img class="formcontato__img" src="img/contacto.jpg">
+              </div>
+              <div class="formcontato__text">
+                  <h2 class="formcontato__title">Contacto</h2>
+                  <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                  <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
+                  <br>
+                  <form class="formcontato__form" name="form" id="form">
+                      <input class="formcontato__input" type="text" name="nombre" id="nombre" placeholder="Nombre" required minlength="6" max="50" >
+                      <br>
+                      <input class="formcontato__input" type="email" name="email" id="email" placeholder="E-mail" required>
+                      <br>
+                      <input class="formcontato__input" type="text" name="asunto" id="asunto" placeholder="Assunto" required minlength="10">
+                       <br>
+                      <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" required minlength="10" maxlength="200"></textarea>
+                      <br>
+                      <button type="submit" class="boton-contacto" id="enviar">Enviar mensaje</button>
+                  </form>
+              </div>
+          </div> <!--Cierre contenedor contacto-->
+      </section><!--Fin seccion contacto-->
+
+         <!-- Sección de Footer -->
+         <section class="footer">
+          <div class="footer__rodape">
+              <p>Desarrollado por Ckgutierrez </p>
+             
+           
+          </div>
+          
+      </section>
+
+</body>
+</html>

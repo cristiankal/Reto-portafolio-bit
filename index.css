@@ -1,0 +1,212 @@
+
+
+body {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+/* Estilos para pantallas con un ancho máximo de 768 píxeles */
+@media (max-width: 768px) {
+  body {
+    background-color: #CCCCCC;
+  }
+  .titulo-presentacion h2 {
+    font-size: 36px;
+  } 
+
+}
+
+
+.menu-principal > menu, ul, li,a {
+    justify-content: flex-start;
+    list-style: none;
+    text-decoration: none;
+    display:flex;
+    padding:3px 10px;
+    color: #464646;
+}
+  
+a:hover{
+  color:blue;
+
+}
+
+
+  .icono {
+
+    display: flex;
+    align-items: center;
+  }
+
+  .icono img{
+    max-width: 50px;
+  }
+
+  .logo-azul {
+    margin-left: 10px;
+    color: #0723c2;
+  }
+
+  /* comienzo seccion nueva*/
+
+  .title__div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+ /* contenedor padre de la seccion titulo*/
+ 
+
+.imagen-perfil{
+    width: 100%;
+    max-width: 368px;
+    order: 2;
+}
+
+.titulo-presentacion{
+    padding: 15px 0px;
+    max-width: 751px;
+    order: 1;
+    margin: 10px;
+}
+
+
+.titulo-presentacion h2{
+font-weight: 700;
+font-size: 52px;
+line-height: 61px;
+}
+
+.titulo-presentacion h3{
+ font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+}
+
+
+/*Comienzo seccion skills  */
+
+
+.skills__line{
+  display: flex; /*skills-line es el contenedor padre */
+  flex-direction: row;
+  text-transform: uppercase; /* Las letras que esten dentro del contendor
+  se convierten a mayusculas */
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+
+}
+
+.skills__title{
+text-align: center;/* Alineo el texto */
+font-size: 40px; /* Tamaño del texto*/
+} 
+
+
+.skills__box{ /*le doy ancho y alto a los contenedores hijos*/
+  width: 176px;
+  height: 174px;
+  padding: 16px;
+  gap: 8px;
+  background: #FFFFFF;
+  margin: 5px ;
+  }
+
+
+/*seccion Contacto*/
+
+.contenedor__contacto{/*contenedor contacto*/
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  background: #EAF2FD;
+
+}
+
+.imagen-contacto  img{
+  max-width: 464px;
+  max-height: 593px;
+  margin-top: 120px;
+  margin-left:140px ;
+  margin-right: 5px;
+
+}
+
+.formcontato__text{ /*contenedor del texto */
+  
+margin-top: 120px;
+margin-left: 10px;
+}
+
+.formcontato__text h2{
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+}
+
+.formcontato__text h3{
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+}
+
+.formcontato__form input{/*contenedor de los input del formulario */
+margin-bottom: 15px;
+border: none;
+border-radius: 6px;
+
+}
+
+.formcontato__input{ /*le doy tamaño a los input */
+  width: 656px;
+  height: 56px;
+  padding: 15px;
+}
+
+
+.formcontato__textarea{ /*le doy tamaño al textarea*/
+  margin-bottom: 15px;
+  width: 656px;
+  height: 133px;
+  border: none;
+border-radius: 6px;
+padding: 15px;
+}
+
+.boton-contacto{
+  background-color: #2A7AE4;
+  color: white;/* Color del texo */
+  border: 2px solid #0099CC;/* Grosor del borde, estilo de línea y color */
+
+border-radius: 6px;/* Añadir esquinas curvadas */
+
+width: 144px;
+height: 51px;
+margin-bottom: 30px;
+}
+
+
+.boton-contacto:hover{
+  background: transparent;
+  color:#0099CC;
+}
+
+
+/*footer*/
+
+.footer__rodape{
+display: flex;
+flex-direction: row;
+  justify-content: center;
+}
+
+
+
+
+
+  
